@@ -1,0 +1,54 @@
+{
+    "production": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-boyaki-production-111857-authRole",
+            "UnauthRoleArn": "arn:aws:iam::057475856597:role/amplify-boyaki-production-111857-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::057475856597:role/amplify-boyaki-production-111857-authRole",
+            "Region": "ap-southeast-1",
+            "DeploymentBucketName": "amplify-boyaki-production-111857-deployment",
+            "UnauthRoleName": "amplify-boyaki-production-111857-unauthRole",
+            "StackName": "amplify-boyaki-production-111857",
+            "StackId": "arn:aws:cloudformation:ap-southeast-1:057475856597:stack/amplify-boyaki-production-111857/95c8c880-e5e4-11eb-86bc-0acc7fa80ff0",
+            "AmplifyAppId": "d17gga8wux1rok"
+        },
+        "categories": {
+            "auth": {
+                "boyakid054b5f2": {}
+            },
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d17gga8wux1rok",
+                    "type": "manual"
+                }
+            }
+        }
+    },
+    "staging": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-boyaki-staging-154819-authRole",
+            "UnauthRoleArn": "arn:aws:iam::057475856597:role/amplify-boyaki-staging-154819-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::057475856597:role/amplify-boyaki-staging-154819-authRole",
+            "Region": "ap-southeast-1",
+            "DeploymentBucketName": "amplify-boyaki-staging-154819-deployment",
+            "UnauthRoleName": "amplify-boyaki-staging-154819-unauthRole",
+            "StackName": "amplify-boyaki-staging-154819",
+            "StackId": "arn:aws:cloudformation:ap-southeast-1:057475856597:stack/amplify-boyaki-staging-154819/3433bf00-e60a-11eb-b2a2-0a0c63784dde",
+            "AmplifyAppId": "d17gga8wux1rok"
+        },
+        "categories": {
+            "auth": {
+                "boyakid054b5f2": {}
+            },
+            "function": {
+                "createPostAndTimeline": {},
+                "BoyakiGql": {}
+            },
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d17gga8wux1rok",
+                    "type": "manual"
+                }
+            }
+        }
+    }
+}

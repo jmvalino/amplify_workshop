@@ -1,0 +1,10 @@
+{
+    "permissions": {
+        "api": {
+            "BoyakiGql": [
+                "create",
+                "read"
+            ]
+        }
+    }
+}
