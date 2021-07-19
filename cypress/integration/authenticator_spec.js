@@ -4,10 +4,8 @@ describe("Authenticator:", function () {
   });
   describe("Sign In:", () => {
     it("allows a user to signin", () => {
-      cy.get(selectors.usernameInput).type("<Your Username in stating env>");
-      cy.get(selectors.signInPasswordInput).type(
-        "<Your Password in staging env>"
-      );
+      cy.get(selectors.usernameInput).type("jmvalino");
+      cy.get(selectors.signInPasswordInput).type("1234abcD!!");
       cy.get(selectors.signInSignInButton).contains("Sign In").click();
       cy.wait(3000);
       cy.get(selectors.root).contains("Global");
