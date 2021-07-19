@@ -187,7 +187,7 @@ export default function Sidebar({ activeListItem }) {
           <ListItemText
             primary={
               <Button variant="outlined" onClick={signOut} fullWidth>
-                Logout
+                Sign out
               </Button>
             }
           />
