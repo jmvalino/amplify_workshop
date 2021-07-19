@@ -15,7 +15,7 @@ describe("Authenticator:", function () {
   });
 });
 export const selectors = {
-  usernameInput: '[data-test="sign-in-username-input"]',
+  usernameInput: '[data-test="username-input"]',
   signInPasswordInput: '[data-test="sign-in-password-input"]',
   signInSignInButton: '[data-test="sign-in-sign-in-button"]',
   root: "#root",
